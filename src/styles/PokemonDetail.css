@@ -1,0 +1,223 @@
+.modal {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    background-color: #80808081;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal.is-Open{
+      display: flex;
+  }
+ 
+  .see-none {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+
+.button-back {
+ position: relative;
+ top: 20px;
+}
+.button-back button {
+  font-size: 1.5rem;
+  border: none;
+  background: white;
+}
+.poke {
+  display: flex;
+  gap: 20px;
+  font-family: "Montserrat",sans-serif;
+  padding-bottom: 70px;
+}
+.poke-img {
+  width: 300px;
+}
+.container-banner {
+
+  height: 50px;
+ }
+ .round-li {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
+ }
+.col {
+  box-shadow: 0 2px 4px 0 rgba(34,36,38,.12), 0 2px 10px 0 rgba(34,36,38,.15);
+  background-color: white;
+  width: 700px;
+}
+
+.row-info {
+  height: 430px;
+  position: relative;
+
+}
+.col-info {
+  height: 440px;
+
+}
+.col__first {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  bottom: 200px;
+}
+.col__first h3 {
+
+  bottom: 100px;
+  left: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.col__first span {
+  color: gray;
+}
+.col__second {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 100px;
+}
+.col__second-title {
+  text-align: center;
+}
+.row-type img {
+  height: 260px;
+ width: 260px;
+ 
+ 
+}
+.row-type {
+  display: flex;
+  justify-content: space-around;
+}
+.list--size {
+
+  gap: 10px;
+}
+
+.detail__tittle {
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.col__stats {
+  padding-bottom: 20px;
+}
+.modals-button {
+  box-shadow: inset 0 0 0 1px transparent, inset 0 0 0 0 rgba(34,36,38,.15);
+  width: 60px;
+  border-radius: 5px;
+  border: none;
+  background: #6c79db;
+  color: white;
+}
+
+
+/* Clase para el tipo "Grass" */
+.grass {
+  background-color: #7AC74C;
+  color: white;
+}
+
+/* Clase para el tipo "Fire" */
+.fire {
+  background-color: #EE8130;
+  color: white;
+}
+
+/* Clase para el tipo "Poison" */
+.poison {
+  background-color: #A33EA1;
+  color: white;
+}
+
+/* Clase para el tipo "Water" */
+.water {
+  background-color: #6390F0;
+  color: white;
+}
+
+
+.normal{
+  background-color: #A8A77A;
+  color: white;
+}
+
+.electric {
+  background-color: #F7D02C; /* Amarillo */
+  color: white;
+}
+
+.ice {
+  background-color: #96D9D6; /* Cian */
+  color: black;
+}
+
+.fighting {
+  background-color: #C22E28; /* Rojo */
+  color: white;
+}
+
+.ground {
+  background-color: #E2BF65; /* Amarillo Claro */
+  color: black;
+}
+
+.flying {
+  background-color: #A98FF3; /* Violeta */
+  color: white;
+}
+
+.psychic {
+  background-color: #F95587; /* Rosa */
+  color: white;
+}
+
+.bug {
+  background-color: #A6B91A; /* Verde */
+  color: white;
+}
+
+.rock {
+  background-color: #B6A136; /* Amarillo Oscuro */
+  color: white;
+}
+
+.ghost {
+  background-color: #735797; /* Morado */
+  color: white;
+}
+
+.dragon {
+  background-color: #6F35FC; /* Azul */
+  color: white;
+}
+
+.dark {
+  background-color: #705746; /* Marrón Oscuro */
+  color: white;
+}
+
+.steel {
+  background-color: #B7B7CE; /* Gris */
+  color: black;
+}
+
+.fairy {
+  background-color: #D685AD; /* Rosa Claro */
+  color: black;
+}
+
+

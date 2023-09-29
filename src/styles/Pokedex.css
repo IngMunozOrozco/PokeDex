@@ -1,0 +1,91 @@
+.pokedex {
+    padding: 10px 200px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(./sky.webp);
+    background-size: 100% 100%;
+    
+}
+audio {
+   
+    width: 5px;
+}
+.pokedex__title {
+
+
+
+}
+
+.pokedex .ball{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    z-index: 1;
+    left: 65px;
+    top: 138px;
+   
+}
+
+.pokedex .logot{
+    width: 100% 100%;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: -20px;
+
+}
+
+.pokedex__title img {
+  
+
+   
+
+}
+
+
+
+.pokedex__subtitle {
+    font-family: "Montserrat",sans-serif;
+    text-align: left;
+    padding: 10px 0 30px;
+    font-size: 1.1rem;
+
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0px;  
+}
+
+.bx-cog {
+    color: white;
+}
+.pokedex__exit button {
+    position: fixed;
+    right: 40px;
+    top: 40px;
+    background: #ffffff;
+    box-shadow: 1px 1px 7px rgba(0,0,0,.5);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+    font-size: 1.7rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 210px;
+
+}
+.bx-log-in {
+    color: white;
+    margin-right: 6px;
+}
+

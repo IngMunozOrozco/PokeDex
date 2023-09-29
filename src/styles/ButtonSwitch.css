@@ -1,0 +1,34 @@
+.container-switch {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.container-switch h3 {
+  font-size: 1rem;
+}
+.switch {
+  display: flex;
+  justify-content: flex-start;
+  
+  width: 75px;
+  height: 30px;
+  background: #fb0;
+  outline: none;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+  transition: .5s;
+  cursor: pointer;
+  }
+  .switch[data-ison="true"] {
+    justify-content: flex-end;
+    background: #03a9f4;
+  }
+  .handle {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    transform: scale(1.1);
+    transition: .5s;
+  }

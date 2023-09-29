@@ -1,0 +1,154 @@
+.img-poke {
+    width: 100px;
+    height: 150px;
+    position: relative;
+}
+.img-poke--over {
+    right: 20px;
+    top: -5px;
+    right: -10px;
+    z-index: 10;
+}
+
+.link {
+    text-decoration: none;
+    color:  white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    width: 250px;
+    
+    font-size: 1rem;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-radius: 20px; 
+    height: 380px;
+    text-shadow: 0 0 1.4px #000;
+}
+
+
+.link h2 {
+    font-size: 1rem;
+}
+ul .types {
+    gap: 5px;
+    padding: 0px;
+    margin: 0px;
+    justify-content: flex-start;
+}
+ul .circle {
+    background: hsla(0,0%,100%,.2);
+    margin-bottom: 3px;
+    padding: 4px 10px;
+    border-radius: 13px;
+}
+ul .circle--small {
+    width: 150px;
+}
+ul .circle--medium {
+    width: 150px;
+}
+.background-img {
+    position: relative;
+    z-index: 1;
+}
+.pokemon-card__text span {
+    font-weight: 800;
+    
+}
+
+
+/* Clase para el tipo "Grass" */
+.grass {
+    background-color: #7AC74C;
+    color: white;
+  }
+  
+  /* Clase para el tipo "Fire" */
+  .fire {
+    background-color: #EE8130;
+    color: white;
+  }
+  
+  /* Clase para el tipo "Poison" */
+  .poison {
+    background-color: #A33EA1;
+    color: white;
+  }
+  
+  /* Clase para el tipo "Water" */
+  .water {
+    background-color: #6390F0;
+    color: white;
+  }
+  
+  
+  .normal{
+    background-color: #A8A77A;
+    color: white;
+  }
+  
+  .electric {
+    background-color: #F7D02C; /* Amarillo */
+    color: white;
+  }
+  
+  .ice {
+    background-color: #96D9D6; /* Cian */
+    color: black;
+  }
+  
+  .fighting {
+    background-color: #C22E28; /* Rojo */
+    color: white;
+  }
+  
+  .ground {
+    background-color: #E2BF65; /* Amarillo Claro */
+    color: black;
+  }
+  
+  .flying {
+    background-color: #A98FF3; /* Violeta */
+    color: white;
+  }
+  
+  .psychic {
+    background-color: #F95587; /* Rosa */
+    color: white;
+  }
+  
+  .bug {
+    background-color: #A6B91A; /* Verde */
+    color: white;
+  }
+  
+  .rock {
+    background-color: #B6A136; /* Amarillo Oscuro */
+    color: white;
+  }
+  
+  .ghost {
+    background-color: #735797; /* Morado */
+    color: white;
+  }
+  
+  .dragon {
+    background-color: #6F35FC; /* Azul */
+    color: white;
+  }
+  
+  .dark {
+    background-color: #705746; /* Marrón Oscuro */
+    color: white;
+  }
+  
+  .steel {
+    background-color: #B7B7CE; /* Gris */
+    color: black;
+  }
+  
+  .fairy {
+    background-color: #D685AD; /* Rosa Claro */
+    color: black;
+  }
+  

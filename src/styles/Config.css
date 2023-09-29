@@ -1,0 +1,42 @@
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+    font-family: "Montserrat",sans-serif;
+}
+.settings h1 {
+    position: relative;
+    bottom: 30px;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.settings button {
+    position: relative;
+    bottom: 40px;
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    border: none;
+    background: #6c79db;
+    color: white;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.6);
+}
+.settings__items {
+    box-shadow: 2px 2px 8px rgba(0,0,0,.4);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.settings__items select {
+    padding-left: 20px;
+}

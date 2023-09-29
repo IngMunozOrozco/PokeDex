@@ -1,0 +1,11 @@
+
+    
+.active {
+    background: #67c98e;
+    align-items: center;
+}
+
+.pagination{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 120px;
+}
