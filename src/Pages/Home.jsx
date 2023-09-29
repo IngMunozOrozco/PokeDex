@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { setName } from '../store/slices/name.slice';
-import Pokeball from '../assets/Images/Pokebola.png';
+import Pokeball from '/pokebola.png';
 import Music from '../../Components/Music'; // Importa el componente Music aquí
 
 

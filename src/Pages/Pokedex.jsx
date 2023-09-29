@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom'
 import PokemonCard from '../../Components/PokemonCard'
 import Paginate from '../../Components/Paginate'
 import PokemonTypes from '../../Components/PokemonTypes'
-import Pokelogo from "../assets/Images/Pokelogo.png"
 import inter from "/inter.png"
 import ball2 from "/ball2.gif"
 
