@@ -19,7 +19,7 @@ const Home = () => {
       navigate('/pokedex');
       localStorage.setItem('userName', userName);
     } else {
-      alert('Please, introduce your name');
+      alert('Enter your name please');
     }
   };
 
